@@ -1,5 +1,5 @@
 body {
-    background: url(../img/bg.jpg) no-repeat 0px 0px;
+    background: url(../imgs/bg.jpg) no-repeat 0px 0px;
     background-attachment: fixed;
     background-size: cover;
     font: 16px 'Ubuntu', sans-serif;
@@ -54,20 +54,20 @@ header .logo a:hover {
 
 
 .nav-menu li a:hover {
-    color: #54EBFE;
+    color: #619DE5;
 }
 
 .nav-menu li a:active {
     color: #AD4C33;
 }
 
-@media screen and (max-width: 1107px) {
+@media screen and (max-width: 1080px) {
  .nav_menu_hide {
    display: none;
  }
 }
 
-@media screen and (max-width: 1107px) {
+@media screen and (max-width: 1080px) {
  .logo-div p {
    font-size: 70%;
  }
