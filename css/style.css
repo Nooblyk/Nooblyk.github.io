@@ -1,12 +1,15 @@
 body {
-    background: url(../imgs/bg.jpg) no-repeat 0px 0px;
+/*    background: url(../imgs/bg.jpg) no-repeat 0px 0px;*/
+    background:linear-gradient(-45deg, #3a2627 0%, #392524 0%, #3a2426 1%, #392423 1%, #382322 2%, #38201e 3%, #372221 3%, #36211e 3%, #39201c 3%, #35221e 4%, #361e1c 4%, #341c1a 6%, #331a16 6%, #361a16 7%, #331b17 7%, #341814 7%, #311915 8%, #301911 8%, #331713 9%, #2e1914 9%, #301713 9%, #2b1613 9%, #2b1615 9%, #2c1412 10%, #2d1513 10%, #271515 11%, #281415 12%, #241512 12%, #261414 12%, #221414 13%, #231314 14%, #211312 15%, #1e1212 16%, #1e1413 16%, #1d1111 16%, #201211 16%, #1e1212 17%, #20120f 17%, #1c1211 17%, #1c1211 21%, #1a1114 21%, #1b1112 23%, #171314 23%, #181216 23%, #181214 27%, #171218 30%, #141319 30%, #141118 30%, #14131b 31%, #14121d 32%, #11141d 32%, #121420 34%, #0f1620 34%, #111423 35%, #0e1623 35%, #0f1724 36%, #0c1a27 37%, #0f1a2c 38%, #0c1c2c 38%, #0c1d31 39%, #0b1e2f 39%, #0e1d32 39%, #0d1e32 40%, #0a1e36 40%, #091d35 40%, #0b1f37 40%, #091f36 40%, #0c2239 40%, #082137 41%, #082038 41%, #092238 41%, #08233e 42%, #09253d 42%, #072541 42%, #06263f 42%, #09243f 42%, #052742 43%, #072740 43%, #082744 43%, #052a47 44%, #072a4a 44%, #012d50 45%, #002e50 46%, #023054 46%, #003255 47%, #003159 47%, #003257 47%, #01325b 47%, #00335e 51%, #003561 51%, #013461 52%, #003664 52%, #013765 53%, #003463 54%, #023866 54%, #003867 55%, #01396a 55%, #003869 56%, #003a6c 56%, #003b6f 62%, #00396e 65%, #003869 65%, #00386b 66%, #013668 66%, #01366a 66%, #003464 67%, #003265 69%, #023061 69%, #002e5f 71%, #002e5a 71%, #002b58 73%, #022954 73%, #002955 74%, #002752 76%, #00254f 76%, #00254c 76%, #00234d 77%, #002248 78%, #011f45 79%, #001e42 79%, #001938 81%, #00142f 84%, #00112b 85%, #00122a 86%, #000f28 86%, #010d23 88%, #000b1f 88%, #000b21 88%, #01091c 89%, #01081b 90%, #000717 90%, #000719 91%, #000614 91%, #010511 92%, #00020f 92%, #00020f 95%, #00030c 95%, #000209 97%, #01010b 100%, #010206 100%, #000209 100%);
     background-attachment: fixed;
     background-size: cover;
     font: 16px 'Ubuntu', sans-serif;
 }
 
 * {
-     font: 18px 'Ubuntu', sans-serif; 
+    font: 18px 'Ubuntu', sans-serif;
+    color: #3d484e;
+
 }
 
 header nav {
@@ -23,13 +26,17 @@ header .logo a {
     transition: 1.3s;
 }
 
+header .logo a i {
+    color: #B0BCBF;
+}
+
 header .logo a:hover {
     text-shadow: 3px 3px 20px #fff;
 }
 
 .nav-menu {
     list-style-type: none;
-    
+
 }
 
 .nav-menu {
@@ -39,7 +46,7 @@ header .logo a:hover {
 .nav-menu li {
     list-style-type: none;
     padding-right: 20px;
-    
+
 }
 
 .nav-menu li a {
@@ -62,15 +69,15 @@ header .logo a:hover {
 }
 
 @media screen and (max-width: 1080px) {
- .nav_menu_hide {
-   display: none;
- }
+    .nav_menu_hide {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1080px) {
- .logo-div p {
-   font-size: 70%;
- }
+    .logo-div p {
+        font-size: 70%;
+    }
 }
 
 .dropdown-toggle {
@@ -79,23 +86,22 @@ header .logo a:hover {
 
 
 @media screen and (max-width: 1107px) {
-.dropdown-toggle {
- display: block;
- }
+    .dropdown-toggle {
+        display: block;
+    }
 }
 
-    
+
 @media screen and (max-width: 1107px) {
- #nav li, #nav a{
-     
- }
+    #nav li,
+    #nav a {}
 }
 
 
 div .hide-menu li {
     text-decoration: none;
     list-style-type: none;
-    
+
 }
 
 div .hide-menu li a {
@@ -111,7 +117,9 @@ header .info h1 {
     margin-top: 200px;
 }
 
-.about_me, .my_works, .contacts {
+.about_me,
+.my_works,
+.contacts {
     margin-top: 100px;
     text-align: center;
 }
@@ -121,7 +129,8 @@ header .info h1 {
     background: linear-gradient(270deg, #016BB3, #B15138);
     width: 50%;
     margin-top: 0;
-    margin-bottom: 5px;;
+    margin-bottom: 5px;
+    ;
 }
 
 .hr_second {
@@ -130,14 +139,14 @@ header .info h1 {
     width: 70%;
     margin-top: 0;
     margin-bottom: 0;
-    
+
 }
 
 .about_me img {
     width: 100%;
     border-radius: 20px;
     box-shadow: 3px 3px 10px #000;
-    
+    margin-bottom: 30px;
 }
 
 .row_2 {
@@ -149,7 +158,7 @@ header .info h1 {
     margin-top: 25px;
     width: 100%;
     border-radius: 10px;
-    
+
 }
 
 .contacts iframe {
@@ -170,8 +179,9 @@ header .info h1 {
     color: darkslategray;
 }
 
-.registr .form:focus, .registr textarea:focus {
-    border: 3px solid rgba(4,139,180, 0.5)
+.registr .form:focus,
+.registr textarea:focus {
+    border: 3px solid rgba(4, 139, 180, 0.5)
 }
 
 .registr textarea {
@@ -211,8 +221,8 @@ header .info h1 {
     text-align: center;
     transition: 0.7s;
     color: #111;
-    
-    
+
+
 }
 
 .social span {
@@ -225,7 +235,7 @@ header .info h1 {
 
 .social a i:hover {
     color: aqua;
-    
+
 }
 
 .social-btn {
