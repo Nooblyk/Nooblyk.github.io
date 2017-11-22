@@ -1,0 +1,236 @@
+body {
+    background: url(../imgs/bg.jpg) no-repeat 0px 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    font: 16px 'Ubuntu', sans-serif;
+}
+
+* {
+    font: 18px 'Ubuntu', sans-serif;
+}
+
+header nav {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+header .logo a {
+    font-size: 150%;
+    color: #B0BCBF;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 5px 5px 20px #000;
+    margin-left: 0px;
+    text-decoration: none;
+    transition: 1.3s;
+}
+
+header .logo a:hover {
+    text-shadow: 3px 3px 20px #fff;
+}
+
+.nav-menu {
+    list-style-type: none;
+
+}
+
+.nav-menu {
+    margin-top: 20px;
+}
+
+.nav-menu li {
+    list-style-type: none;
+    padding-right: 20px;
+
+}
+
+.nav-menu li a {
+    font: 25px 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 5px 5px 20px #000;
+    color: #8E9A9D;
+    transition: 1s;
+
+}
+
+
+.nav-menu li a:hover {
+    color: #619DE5;
+}
+
+.nav-menu li a:active {
+    color: #AD4C33;
+}
+
+@media screen and (max-width: 1080px) {
+    .nav_menu_hide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .logo-div p {
+        font-size: 70%;
+    }
+}
+
+.dropdown-toggle {
+    display: none;
+}
+
+
+@media screen and (max-width: 1107px) {
+    .dropdown-toggle {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 1107px) {
+    #nav li,
+    #nav a {}
+}
+
+
+div .hide-menu li {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+div .hide-menu li a {
+    padding: 0;
+    margin: 0;
+    font-size: 80%;
+}
+
+
+
+header .info h1 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.about_me,
+.my_works,
+.contacts {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.hr_first {
+    height: 1px;
+    background: linear-gradient(270deg, #016BB3, #B15138);
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 5px;
+    ;
+}
+
+.hr_second {
+    height: 1px;
+    background: linear-gradient(270deg, #B15138, #016BB3);
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.about_me img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px #000;
+
+}
+
+.row_2 {
+    margin-top: 50px;
+}
+
+
+.my_works img {
+    margin-top: 25px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.contacts iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.registr .form {
+    width: 100%;
+    height: 40px;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+    background: rgba(255, 255, 255, .3);
+    border: 3px solid rgba(255, 255, 255, .5);
+    color: darkslategray;
+}
+
+.registr .form:focus,
+.registr textarea:focus {
+    border: 3px solid rgba(4, 139, 180, 0.5)
+}
+
+.registr textarea {
+    width: 100%;
+    height: 130px;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, .3);
+    border: 3px solid rgba(255, 255, 255, .5);
+    margin-bottom: 25px;
+    color: darkslategray;
+}
+
+.registr .btn {
+    width: 75%;
+    background: rgba(255, 255, 255, .3);
+    border-radius: 14px;
+    outline: none;
+    box-shadow: 3px 3px 15px #000;
+    transition: 0.5s;
+}
+
+.registr .btn:hover {
+    background: rgba(255, 255, 255, .6);
+    outline: none;
+}
+
+.registr .btn:active {
+    background: rgba(255, 255, 255, .1);
+}
+
+
+.social i {
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    transition: 0.7s;
+    color: #111;
+
+
+}
+
+.social span {
+    font-size: 30px;
+    color: #111;
+    display: inline-block;
+    position: relative;
+    top: -12px;
+}
+
+.social a i:hover {
+    color: aqua;
+
+}
+
+.social-btn {
+    margin-bottom: 50px;
+}
