@@ -1,0 +1,295 @@
+body {
+    background: url(../imgs/bg_b.jpg) no-repeat 0 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navmenu {
+    background-color: #000;
+    opacity: 0.7;
+    width: 100%;
+}
+
+a.logo {
+    text-decoration: none;
+    font-size: 50px;
+    color: #a8a8a8;
+    font-weight: 700;
+    font-family: Khand;
+}
+
+.logo span {
+    color: #146371;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+nav .d-flex li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-right: 40px;
+    font-weight: 700;
+    color: #a8a8a8;
+    padding-top: 10px;
+}
+
+.d-flex .cont {
+    margin-right: 0px;
+}
+
+.mcmg {
+    margin-top: 330px;
+    margin-bottom: 280px;
+}
+
+
+.about_me {
+    background-color: rgba(75, 74, 73, 0.95);
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.about_me .col-md-4 {
+    padding: 0;
+    margin-top: 30px;
+
+}
+
+.about_me img {
+    margin-top: 32px;
+    border-radius: 7px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.about_me h2 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #B7B3B0;
+}
+
+.about_me ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 100pxx`;
+}
+
+.about_me p {}
+
+
+.about_me a {
+    display: block;
+    background-image: url(../imgs/skills_64.png);
+    height: 65px;
+    width: 65px;
+}
+
+
+.about_me .skills_1 {
+    background-position: 0 -394px;
+    transition: all 0.5s ease;
+}
+
+.about_me .skills_2 {
+    background-position: 0 -132px;
+    transition: all 0.5s ease;
+}
+
+.about_me .skills_3 {
+    background-position: 0 -1px;
+    transition: all 0.5s ease;
+}
+
+.about_me .skills_4 {
+    background-position: 0 -918px;
+    transition: all 0.5s ease;
+}
+
+.about_me .skills_5 {
+    background-position: 0 -787px;
+    transition: all 0.5s ease;
+}
+
+.about_me .skills_6 {
+    background-position: 0 -525px;
+    transition: all 0.5s ease;
+}
+
+.about_me .skills_7 {
+    background-position: 0 -656px;
+    transition: all 0.5s ease;
+}
+
+.about_me .skills_8 {
+    background-position: 0 -1049px;
+    transition: all 0.5s ease;
+}
+
+.about_me .skills_9 {
+    background-position: 0 -263px;
+    transition: all 0.5s ease;
+}
+
+
+.about_me .skills_1:hover {
+    background-position: 0 -460px;
+}
+
+.about_me .skills_2:hover {
+    background-position: 0 -198px;
+}
+
+.about_me .skills_3:hover {
+    background-position: 0 -67px;
+}
+
+.about_me .skills_4:hover {
+    background-position: 0 -983px;
+}
+
+.about_me .skills_5:hover {
+    background-position: 0 -852px;
+}
+
+.about_me .skills_6:hover {
+    background-position: 0 -591px;
+}
+
+.about_me .skills_7:hover {
+    background-position: 0 -722px;
+}
+
+.about_me .skills_8:hover {
+    background-position: 0 -1114px;
+}
+
+.about_me .skills_9:hover {
+    background-position: 0 -328px;
+}
+
+.discr {
+    font-size: 16px;
+    color: #B7B3B0;
+}
+
+.discr h3 {
+    margin-top: 30px;
+}
+
+.discr span {
+    color: #146371;
+    font-weight: 700;
+}
+
+.works {
+    background-color: rgba(79, 94, 105, 0.75);
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.works h2 {
+    margin-bottom: 50px;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #B7B3B0;
+}
+
+.works img {
+    background-color: rgba(255, 255, 255, 0.23);
+    border-radius: 10px;
+}
+
+.works a {
+    text-decoration: none;
+    color: #000;
+}
+
+.works .col-md-4 img {
+    transition: opacity 1s ease;
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+
+
+.works .col-md-4 img:hover {
+    transition: all 0.7s ease;
+    opacity: 1;
+    box-shadow: 4px 4px 5px 2px rgba(31, 31, 31, 0.63);
+
+}
+
+section.cont {
+    background-color: rgba(79, 105, 98, 0.75);
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.cont h2 {
+    margin-bottom: 50px;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #B7B3B0;
+}
+
+.cont .social ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.cont .social a {
+    display: block;
+    height: 63px;
+    width: 55px;
+    background-image: url(../imgs/social_64.png);
+    margin-right:
+}
+
+.cont .tel {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.tel a {
+    text-decoration: none;
+    color: #B7B3B0;
+    font-weight: 700;
+}
+
+.cont .fb {
+    background-position: -4px 0;
+}
+
+.cont .in {
+    background-position: 186px 0;
+}
+
+.cont .git {
+    background-position: -67px 0;
+}
+
+.cont .sk {
+    background-position: 122px 0;
+}
+
+.cont .inst {
+    background-position: 249px 0;
+}
+
+.cont .goo {
+    background-position: -131px 0;
+}

@@ -2,17 +2,163 @@
 <html lang="en">
 
 <head>
+    <title>Document</title>
     <meta charset="UTF-8">
-    <title>My projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Khand:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+<script type="text/javascript">
+    $(function() {
+        $('a[href^="#"]').click(function() {
+            var target = $(this).attr('href');
+            $('html, body').animate({
+                scrollTop: $(target).offset().top
+            }, 800); //800 - длительность скроллинга в мс
+            return false;
+        });
+    });
+
+</script>
 
 <body>
-    <h1>My projects:</h1>
-    <ul>
-        <li><a href="liza/index.html">Granovava MakeUp</a></li>
-        <li><a href="tajem/index.html">Tajem</a></li>
-        <li><a href="mirix/index.html">MirixPro</a></li>
-    </ul>
+    <header>
+        <nav class="navmenu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3"><a class="logo" href=""><span>Web</span></a></div>
+                    <div class="col-md-4 ml-md-auto">
+                        <ul class="d-flex">
+                            <li><a class="im" href="#about_me">I</a></li>
+                            <li><a class="wor" href="">Works</a></li>
+                            <li><a class="cont" href="">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container mcmg">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href=""><img class="img-fluid" src="imgs/code.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about_me" id="about_me" name="about_me">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-9">
+                    <h2 class="text-center">About me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="imgs/photo.jpg" alt="my_photo">
+                </div>
+                <div class="col-md-9 discr">
+                    <h3>Kiptily Vladislav</h3>
+                    <h4>Frontend developer (junior)</h4>
+                    <p><span>Дата рождения:</span> 25.04.1995 (22 года)</p>
+                    <p><span>Город:</span> Днепр</p>
+                    <p><span>О себе:</span> С 2016 года изучал разработку сайтов с помощью курса &#171;HTML-верстальщик&#187; от академии интернет-технологий &#171;IMT &#187; (имеется диплом об окончании). После стал углубленно осваивать технологии создания сайтов и различные фреймворки. <br> Позже начал самостоятельно заниматься изучением языка программирования JavaScript и его библиотеки - jQuery. Ознакомился с основами языка PHP, а так же CMS WordPress. <br> На данный момент занимаюсь созданием адаптивных Landing Pages с ипользованием фреймворка Bootstrap 4. Паралельно совершенствую имеющиеся навыки и знакомлюсь с новыми технологиями. </p>
+                    <p><span>Образование:</span> Неоконченное высшее, ХНАДУ, Энергетика, электротехника, электромеханика.</p>
+                    <p><span>Владение языками:</span> Украинский, Русский, Английский - средний, на уровне работы с технической документацией.</p>
+                    <p><span>Личные качества:</span> Логически-математический склад ума, быстрая обучаемость, перфекционизм, усидчивость, коммуникабельность, пунктуальность.</p>
+                    <p><span>Профессиональные навыки:</span> HTML/HTML5, CSS/CSS3, Bootstrap 4, SASS, Photoshop, JavaScript, jQuery, PHP(basic), WordPress(basic), Git.</p>
+                    <div class="row">
+                        <div class="col-md-4 d-flex justify-content-around">
+                            <a class="skills_1" href="https://ru.wikipedia.org/wiki/HTML" target="_blank"></a>
+                            <a class="skills_2" href="https://ru.wikipedia.org/wiki/CSS" target="_blank"></a>
+                            <a class="skills_3" href="https://ru.wikipedia.org/wiki/Bootstrap_(%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA)" target="_blank"></a>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-around">
+                            <a class="skills_4" href="https://ru.wikipedia.org/wiki/Sass" target="_blank"></a>
+                            <a class="skills_5" href="https://ru.wikipedia.org/wiki/Adobe_Photoshop" target="_blank"></a>
+                            <a class="skills_6" href="https://ru.wikipedia.org/wiki/JavaScript" target="_blank"></a>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-around">
+                            <a class="skills_7" href="https://ru.wikipedia.org/wiki/PHP" target="_blank"></a>
+                            <a class="skills_8" href="https://ru.wikipedia.org/wiki/WordPress" target="_blank"></a>
+                            <a class="skills_9" href="https://ru.wikipedia.org/wiki/Git" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="works">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center">Works</h2>
+                </div>
+                <div class="col-md-4"><a href="tajem/index.html">
+                    <img class="img-fluid" src="imgs/tajem.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4"><a href="liza/index.html">
+                    <img class="img-fluid" src="imgs/granovava.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 mirix_img"><a href="mirix/index.html">
+                    <img class="img-fluid" src="imgs/Mirix.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cont">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center">Contacts</h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-8 mx-auto tel">
+                        <img src="imgs/tel.png" alt="">
+                    </div>
+                    <div class="col-md-8 mx-auto social">
+                        <ul class="d-flex justify-content-around">
+                            <li><a class="fb" href=""></a></li>
+                            <li><a class="in" href=""></a></li>
+                            <li><a class="git" href=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8 mx-auto social">
+                        <ul class="d-flex justify-content-around">
+                            <li><a class="sk" href=""></a></li>
+                            <li><a class="inst" href=""></a></li>
+                            <li><a class="goo" href=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <script>
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
 
 </html>
