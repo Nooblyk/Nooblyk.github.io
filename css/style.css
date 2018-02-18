@@ -2,23 +2,14 @@ body {
     background: url(../imgs/bg_b.jpg);
     background-size: cover;
     background-attachment: fixed;
-    min-width: 15%;
 }
 
-body:before {
-    content: "";
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -10;
-    background: url(../imgs/bg_b.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+@media (max-width: 767px) {
+    body {
+
+        background-attachment: none;
+
+    }
 }
 
 .navbar-dark {
