@@ -46,6 +46,20 @@ nav ul {
     margin-right: 0px;
 }
 
+#about_me {
+    padding-bottom: 74px;
+}
+
+#works {
+    padding-bottom: 74px;
+    background-color: rgba(35, 49, 52, 0.75);
+}
+
+#contacts {
+    padding-bottom: 74px;
+    background-color: rgba(79, 94, 105, 0.75);
+}
+
 .mcmg {
     margin-top: 330px;
     margin-bottom: 280px;
