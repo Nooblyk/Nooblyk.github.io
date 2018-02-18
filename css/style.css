@@ -12,13 +12,12 @@ body {
     padding-bottom: 0;
 }
 
-a.navbar-brand {
+.navbar .navbar-brand {
     text-decoration: none;
     font-size: 50px;
     color: #a8a8a8;
     font-weight: 700;
     font-family: Khand;
-
     padding-top: 0;
     padding-bottom: 0;
 }
