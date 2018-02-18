@@ -2,6 +2,7 @@ body {
     background: url(../imgs/bg_b.jpg);
     background-size: cover;
     background-attachment: fixed;
+    min-width: 15%;
 }
 
 nav {
