@@ -4,11 +4,18 @@ body {
     background-attachment: fixed;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     body {
+        background: none;
+    }
+}
 
-        background-attachment: none;
+@media (max-width: 500px) {
+    body {
+        background: url(../imgs/comp4.jpg) no-repeat 0 0;
+        background-size: cover;
 
+        background-attachment: fixed;
     }
 }
 
