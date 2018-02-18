@@ -5,28 +5,25 @@ body {
     min-width: 15%;
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-.navmenu {
+.navbar-dark {
     background-color: #000;
     opacity: 0.8;
-    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-a.logo {
+a.navbar-brand {
     text-decoration: none;
     font-size: 50px;
     color: #a8a8a8;
     font-weight: 700;
     font-family: Khand;
+
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-.logo span {
+.navbar-brand span {
     color: #146371;
 }
 
@@ -36,14 +33,14 @@ nav ul {
     padding: 0;
 }
 
-nav .d-flex li a {
+.navbar-dark li a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 30px;
     margin-right: 40px;
     font-weight: 700;
     color: #a8a8a8;
-    padding-top: 10px;
+    margin-top: -10px;
 }
 
 .d-flex .cont {
